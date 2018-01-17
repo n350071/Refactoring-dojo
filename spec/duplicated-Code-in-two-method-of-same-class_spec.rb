@@ -1,7 +1,7 @@
 describe "Message" do
 
   require 'spec_helper'
-  require 'duplicated-Code-in-two-method-of-same-class'
+  require File.basename(__FILE__).sub('_spec.rb','')
 
   attr_reader :message
 

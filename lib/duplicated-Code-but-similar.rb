@@ -17,22 +17,12 @@ class Messagnger
 end
 
 class Blue_msger < Messagnger
-  #def open_chat(time)
-  #  ret_str = making_header(time)
-  #  #ret_str << "This is the blue messanger!"
-  #  ret_str << "This is the " + diff_bits + " messanger!"
-  #end
   def diff_bits
     'blue'
   end
 end
 
 class Green_msger < Messagnger
-  #def open_chat(time)
-  #  ret_str = making_header(time)
-  #  #ret_str << "This is the green messanger!"
-  #  ret_str << "This is the " + diff_bits + " messanger!"
-  #end
   def diff_bits
     'green'
   end
